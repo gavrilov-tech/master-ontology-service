@@ -1,0 +1,17 @@
+export enum HTTP_CODES {
+  OK = 200,
+  NO_CONTENT = 204,
+  BAD_REQUEST = 400,
+  UNAUTHORIZED = 401,
+  NOT_FOUND = 404,
+  INTERNAL_SERVER_ERROR = 500,
+}
+
+export const HTTP_STATUS_TEXT = {
+  [HTTP_CODES.OK]: 'OK',
+  [HTTP_CODES.NO_CONTENT]: 'No Content',
+  [HTTP_CODES.BAD_REQUEST]: 'Bad Request',
+  [HTTP_CODES.UNAUTHORIZED]: 'Unauthorized',
+  [HTTP_CODES.NOT_FOUND]: 'Not Found',
+  [HTTP_CODES.INTERNAL_SERVER_ERROR]: 'Internal Server Error',
+}
